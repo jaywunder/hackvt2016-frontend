@@ -1,7 +1,8 @@
 <template>
   <div class="slider">
     {{name}}
-    <input :class="name" type="text" min="min" max="max" value="0" v-on:change="onChange()"></input>
+    <input :class="claSS" type="range" min="min" max="max" value="0"
+     v-on:change="onChange()"></input>
   </div>
 </template>
 
@@ -19,15 +20,13 @@ export default {
   },
   methods: {
     onChange() {
-      // console.log(this.name, this.value);
-      // this.$emit('change', this.name, this.value)
-      $.trigger('sliderChange', this.name, )
+
+      $(window).trigger('sliderChange', this.name)
+      // setTimeout(_ => $('.invisible-button').trigger('click'), 200)
     }
   },
   computed: {
-    value() {
-      // return state.sliderValues.
-    }
+    claSS() { this.name.replace(/\W/g, '-') }
   }
 }
 </script>

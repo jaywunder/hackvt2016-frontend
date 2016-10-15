@@ -12,6 +12,19 @@
 <script>
 import * as d3 from 'd3'
 
+function refreshEverything(name) {
+  let value = $('.' + name.replace(/\W/g, '-')).value() / 100 * state.sliderValues[name].currentDollars
+
+  fetch(DILLONS_IP + '/calculate/' + value)
+    .then(response => response.json())
+    .then(successIndex => {
+
+      state.sliderValues[name].successIndex = successIndex
+      setTimeout(_ => $('.invisible-button').trigger('click'), 50)
+    })
+}
+
+
 export default {
   name: 'Vermont',
   data () {
@@ -28,6 +41,9 @@ export default {
     },
 
     main() {
+
+      refreshEverything()
+
       for (let i in state.districts) {
         const district = state.districts[i]
         // console.log(district.successIndex);

@@ -32,44 +32,6 @@ export default {
     },
     onChange(name, value) {
 
-      console.log('CHAGNGINGING');
-
-      console.log(name, value);
-      // fetch(DILLONS_IP + '/calculate/' + value)
-      //   .then(response => response.json())
-      //   .then(successIndex => {
-      //     console.log('successIndex', successIndex);
-      //
-      //     window.state = {
-      //       districts: [],
-      //       sliderValues: schoolJson
-      //     }
-      //
-      //     // console.log(state.sliderValues.currentDollars);
-      //
-      //     let successIndices = normalizeSuccessIdices(schoolJson)
-      //
-      //     for (let key in districts) {
-      //       if (key === 'NO DATA') continue
-      //       const district = districts[key]
-      //       state.districts.push({
-      //         svgId: district.svgId,
-      //         districtName: district.districtName,
-      //         successIndex: successIndices[key]
-      //       })
-      //     }
-      //
-      //     for (let i in noDataDistricts) {
-      //       const district = noDataDistricts[i]
-      //       state.districts.push({
-      //         key: i,
-      //         svgId: district.svgId,
-      //         districtName: district.districtName,
-      //         successIndex: 420
-      //       })
-      //     }
-      //   })
-      //   .then(_ => setTimeout(_ => $('.invisible-button').trigger('click'), 200))
     }
   }
 }

@@ -6,6 +6,10 @@ import App from './components/App.vue'
 import * as districts from './assets/districts2.json'
 import * as noDataDistricts from './assets/no-data.json'
 
+Vue.filter('spaceToDash', function (string) {
+  return string.replace(/\W/g, '-')
+})
+
 function normalizeSuccessIdices(schools) {
   const obj = {}
   for (let key in schools) {
@@ -23,7 +27,7 @@ fetch(DILLONS_IP)
       districts: [],
       sliderValues: schoolJson
     }
-    console.log(state.sliderValues.currentDollars);
+    // console.log(state.sliderValues.currentDollars);
 
     let successIndices = normalizeSuccessIdices(schoolJson)
 
