@@ -1,126 +1,82 @@
 <template>
   <div id="configuration">
-  <h1>biluyearghiuerjksejksergjkn</h1>
-  <div class="toplevel">
-    <div id="sliders-holder"></div>
-  </div>
-
-    <!-- <ul>
-      <li>
+    <ul>
+      <li v-for="school in sliderValues">
+        {{school}}
+        <slider v-bind:name="school.districtName" v-bind:value="school.currentDollars"
+                v-on:change="onChange()"/>
       </li>
-    </ul> -->
+    </ul>
     <button v-on:click="main()">uygwefhjwehwefhjb</button>
   </div>
 </template>
 
 <script>
+import DILLONS_IP from '../conf.js'
+
+import Slider from './Slider.vue'
 
 export default {
   name: 'Configuration',
-
+  components: { Slider },
   data () {
     return {
-      districts: state.districts
+      state,
+      districts: state.districts,
+      sliderValues: state.sliderValues
     }
   },
-
   methods: {
     main() {
-      console.log("WE ARE HERE");
-      $( function() {
-        window.dbg1 = humbleSliders( 2000, $( "#sliders-holder" ), {
-          "splits": [ {
-              "class": "developers",
-              "name": "Developers",
-              "splits": [ {
-                  "class": "dev1",
-                  "name": "Developer #1",
-                  "percent": ( 1.0 / 5.0 )
-                }, {
-                  "class": "dev2",
-                  "name": "Developer #2",
-                  "percent": ( 1.0 / 5.0 )
-                }, {
-                  "class": "dev3",
-                  "name": "Developer #3",
-                  "percent": ( 1.0 / 5.0 )
-                }, {
-                  "class": "dev4",
-                  "name": "Developer #4",
-                  "percent": ( 1.0 / 5.0 )
-                }, {
-                  "class": "dev5",
-                  "name": "Developer #5",
-                  "percent": ( 1.0 / 5.0 )
-                } ]
-            }, {
-              "class": "charity",
-              "name": "Charity",
-              "splits": [ {
-                  "class": "charity1",
-                  "name": "Charity #1",
-                  "percent": ( 1.0 / 2.0 )
-                }, {
-                  "class": "charity2",
-                  "name": "Charity #2",
-                  "percent": ( 1.0 / 2.0 )
-                } ]
-            }, {
-              "class": "other",
-              "name": "Other"
-          } ],
-          "allotments": {
-            "default": {
-              "developers": 0.75,
-              "charity": 0.15,
-              "other": 0.05
-            },
-            "developers": {
-              "developers": 1.00,
-              "charity": 0.00,
-              "other": 0.00
-            },
-            "charity": {
-              "developers": 0.00,
-              "charity": 1.00,
-              "other": 0.00
-            }
-          }
-        })
-      })
+
+    },
+    onChange(name, value) {
+
+      console.log('CHAGNGINGING');
+
+      console.log(name, value);
+      // fetch(DILLONS_IP + '/calculate/' + value)
+      //   .then(response => response.json())
+      //   .then(successIndex => {
+      //     console.log('successIndex', successIndex);
+      //
+      //     window.state = {
+      //       districts: [],
+      //       sliderValues: schoolJson
+      //     }
+      //
+      //     // console.log(state.sliderValues.currentDollars);
+      //
+      //     let successIndices = normalizeSuccessIdices(schoolJson)
+      //
+      //     for (let key in districts) {
+      //       if (key === 'NO DATA') continue
+      //       const district = districts[key]
+      //       state.districts.push({
+      //         svgId: district.svgId,
+      //         districtName: district.districtName,
+      //         successIndex: successIndices[key]
+      //       })
+      //     }
+      //
+      //     for (let i in noDataDistricts) {
+      //       const district = noDataDistricts[i]
+      //       state.districts.push({
+      //         key: i,
+      //         svgId: district.svgId,
+      //         districtName: district.districtName,
+      //         successIndex: 420
+      //       })
+      //     }
+      //   })
+      //   .then(_ => setTimeout(_ => $('.invisible-button').trigger('click'), 200))
     }
   }
 }
 </script>
 
-<style scoped>
-  .slider-container {
-    background: url(/src/assets/slider-shit/slider-bg.png) no-repeat;
-    position: relative;
-    float: left;
-    top: 7px;
-    width: 292px;
-    height: 6px;
-    margin: 0 20px 0 18px;
-  }
-  .slider-container .right {
-    background: url(/src/assets/slider-shit/slider-bg.png) no-repeat right;
-    position: absolute;
-    top: 0;
-    right: -2px;
-    bottom: 0;
-    width: 2px;
-  }
-  .ui-slider {
-    height: 10px;
-  }
-  .ui-slider-handle {
-    background: url(/src/assets/slider-shit/slider-handle.png) no-repeat;
-    position: absolute;
-    top: -3px;
-    width: 11px;
-    height: 12px;
-    margin-left: -6px;
-    z-index: 10;
+<style >
+  li {
+    list-style-type: none;
   }
 </style>

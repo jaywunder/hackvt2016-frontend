@@ -54,6 +54,8 @@
 import Vermont from './Vermont.vue'
 import Configuration from './Configuration.vue'
 
+setTimeout(_ => $('.invisible-button').trigger('click'), 200)
+
 export default {
   name: 'App',
   components: {
@@ -62,7 +64,7 @@ export default {
   },
   data () {
     return {
-      msg: 'Hello Vue!'
+
     }
   },
   methods: {
@@ -74,5 +76,7 @@ export default {
 </script>
 
 <style>
-
+  .invisible-button {
+    display: none;
+  }
 </style>
