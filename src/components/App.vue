@@ -13,7 +13,7 @@
     </nav>
     <div id="app" class="container">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-5">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <div class="row">
@@ -26,10 +26,10 @@
                 </div>
               </div>
             </div>
-            Butt
+            <configuration/>
           </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-7">
           <div class="panel panel-primary">
             <div class="panel-heading">
               <div class="row">
@@ -46,20 +46,19 @@
           </div>
         </div>
     </div>
-    </div>
+  </div>
 </template>
 
 
 <script>
-
-
-import { mapMutations } from 'vuex'
 import Vermont from './Vermont.vue'
+import Configuration from './Configuration.vue'
 
 export default {
   name: 'App',
   components: {
-    Vermont
+    Vermont,
+    Configuration
   },
   data () {
     return {
@@ -75,8 +74,5 @@ export default {
 </script>
 
 <style>
-body {
-  font-family: Helvetica, sans-serif;
-}
-</style>
 
+</style>
