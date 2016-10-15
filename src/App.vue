@@ -1,24 +1,23 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <vermont></vermont>
-  </div>
+  <div id="app" class="row">
+    <div class="col-md-6">
+      <img src="./assets/logo.png">
+      <h1>{{ msg }}</h1>
+    </div>
+    <div class="col-md-6">
+      <p>This should be on the right</p>
+    </div>
+</div>
 </template>
 
 <script>
-import Vermont from './components/Vermont.vue'
-
-export default {
-  data () {
-    return {
-      msg: 'Hello Vue!'
+  export default {
+    data () {
+      return {
+        msg: 'Dank Memes!',
+      }
     }
-  },
-  components: {
-    'vermont': Vermont
   }
-}
 </script>
 
 <style>
