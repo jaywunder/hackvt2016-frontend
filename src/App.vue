@@ -5,9 +5,9 @@
       <h1>{{ msg }}</h1>
     </div>
     <div class="col-md-6">
-      <p>This should be on the right</p>
+      <div></div>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
