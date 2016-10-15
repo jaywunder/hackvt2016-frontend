@@ -1,8 +1,13 @@
 <template>
-  <div id="app" class="cm-sm-6">
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-  </div>
+  <div id="app" class="row">
+    <div class="col-md-6">
+      <img src="./assets/logo.png">
+      <h1>{{ msg }}</h1>
+    </div>
+    <div class="col-md-6">
+      <p>This should be on the right</p>
+    </div>
+</div>
 </template>
 
 <script>
