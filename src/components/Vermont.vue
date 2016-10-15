@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div id="app" class="row">
     <div class="col-md-6">
       <img src="./assets/logo.png">
@@ -18,6 +19,34 @@
       }
     }
   }
+=======
+  <div id="vermont">
+    <button type="button" @click="log">{{msg}}</button>
+    <input type="text" name="name" v-model="msg">
+  </div>
+</template>
+
+<script>
+// import store from '../store'
+import { mapMutations } from 'vuex'
+
+export default {
+  name: 'Vermont',
+  props: {
+    name: String
+  },
+  data () {
+    return {
+      msg: 'SOME COOL MESSAGE'
+    }
+  },
+  methods: {
+    log: function() {
+      console.log(this.msg);
+    }
+  }
+}
+>>>>>>> refs/remotes/origin/master
 </script>
 
 <style>
