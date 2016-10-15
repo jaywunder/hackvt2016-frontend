@@ -1,291 +1,255 @@
 {
   "NORTH COUNTRY SENIOR UHSD #22": {
-    "svgId": "WjHn5HTqsO",
+    "svgId": "AsAWZwbAAe",
     "districtName": "North Country"
   },
 
   "WINOOSKI SCHOOL DISTRICT": {
-    "svgId": "fny2skbMQ6",
+    "svgId": "svpbwlD19F",
     "districtName": "Winooski"
   },
 
   "BURLINGTON SCHOOL DISTRICT": {
-    "svgId": "OzJB13X2ch",
+    "svgId": "sDZOGjmwtT",
     "districtName": "Burlington"
   },
   "SOUTH BURLINGTON SCHOOL DISTRICT": {
-    "svgId": "xmQSUTZ2tE",
+    "svgId": "mqR0TErpv8",
     "districtName": "South Burlington"
   },
 
   "ENOSBURGH TOWN SCHOOL DISTRICT": {
-    "svgId": "OlSW9OZd74",
+    "svgId": "SoErMDAPK4",
     "districtName": "Franklin Northeast"
   },
 
   "LAKE REGION UHSD #24": {
-    "svgId": "Cn37fa7t8O",
+    "svgId": "WBz9ZK14gh",
     "districtName": "Orleans Central"
   },
 
   "CANAAN SCHOOL DISTRICT": {
-    "svgId": "zyJSLFgjLp",
+    "svgId": "eCaEqWonFB",
     "districtName": "Essex North"
   },
 
   "MISSISQUOI VALLEY UHSD #7": {
-    "svgId":"i9sWLrxp3b",
+    "svgId":"miSClUEzOc",
     "districtName":"Franklin Northwest"
   },
 
   "BELLOWS FREE ACADEMY UHSD #48": {
-    "svgId":"focx5hockO",
+    "svgId":"Cycf9K2Ynr",
     "districtName":"Franklin Central"
   },
 
-  "MILTON INCORPORATED SCHOOL DISTRICT
-  ": {
-    "svgId":"X9gHFoZTLx",
+  "MILTON INCORPORATED SCHOOL DISTRICT": {
+    "svgId":"FtrqmjEAHU",
     "districtName":"Milton"
   },
 
   "ESSEX TOWN SCHOOL DISTRICT": {
-    "svgId":"lB3oxstFRJ",
+    "svgId":"R9PopmddWl",
     "districtName":"Westford/Essex"
   },
 
   "COLCHESTER SCHOOL DISTRICT": {
-    "svgId":"U3UBack4PZ",
+    "svgId":"JytsBgcm0R",
     "districtName":"Colchester"
   },
 
   "LAMOILLE UHSD #18": {
-    "svgId":"cCeQgum7j9",
+    "svgId":"L8Ok01IT1X",
     "districtName":"Lamoille North"
   },
 
   "HAZEN UHSD #26": {
-    "svgId":"PEwuR3f08x",
+    "svgId":"Wut4bydQtu",
     "districtName":"Orleans Southwest"
   },
 
   "STOWE SCHOOL DISTRICT": {
-    "svgId":"khOCqMNK8c",
+    "svgId":"H2gjzPk0nR",
     "districtName":"Lamoille South"
   },
 
   "CHAMPLAIN VALLEY UHSD #15": {
-    "svgId":"oabLAWN3Of",
+    "svgId":"XhKF8WbZpU",
     "districtName":"Chittenden South"
   },
 
   "MOUNT MANSFIELD USD #17": {
-    "svgId":"j4knsLq8ov",
+    "svgId":"nunFzccxVE",
     "districtName":"Chittenden East"
   },
 
   "VERGENNES UHSD #5": {
-    "svgId":"dzhw3NJnAr",
+    "svgId":"HyPk3FmKvn",
     "districtName":"Addison Northwest"
   },
 
   "MOUNT ABRAHAM UHSD #28": {
-    "svgId":"Pllf6vzW5m",
+    "svgId":"XjarlTTfG0",
     "districtName":"Addison Northeast"
   },
 
   "MIDDLEBURY UHSD #3": {
-    "svgId":"VxZtsy236j",
+    "svgId":"B3ojQKp1Q5",
     "districtName":"Addison Central"
   },
 
   "FAIR HAVEN UHSD #16": {
-    "svgId":"dA6w0Xytfh",
+    "svgId":"kBGXgkl9Zf",
     "districtName":"Addison - Rutland"
   },
 
   "OTTER VALLEY UHSD #8": {
-    "svgId":"M4j2wcd8FZ",
+    "svgId":"KA7nPHanNf",
     "districtName":"Rutland Northeast"
   },
 
   "RUTLAND CITY SCHOOL DISTRICT": {
-    "svgId":"QDh6ZClj5x",
+    "svgId":"z2ona6P0ln",
     "districtName":"Rutland City"
   },
 
   "WEST RUTLAND SCHOOL DISTRICT": {
-    "svgId":"D7YUKh9ZCx",
+    "svgId":"cjsLcImRGM",
     "districtName":"Rutland Central"
   },
 
   "POULTNEY SCHOOL DISTRICT": {
-    "svgId":"d6nf3UvAwj",
+    "svgId":"OjvdGbEvom",
     "districtName":"Rutland Southwest"
   },
 
   "MILL RIVER USD #40": {
-    "svgId":"Kp0LXsJTr6",
+    "svgId":"okc2VOJ2OQ",
     "districtName":"Rutland South"
   },
 
   "BLACK RIVER USD #39": {
-    "svgId":"e5Ns869jkx",
+    "svgId":"lc6YVOYnVJ",
     "districtName":"Two Rivers"
   },
 
   "ARLINGTON SCHOOL DISTRICT": {
-    "svgId":"IwoX594MRp",
+    "svgId":"O432j02VL",
     "districtName":"Battenkill Valley"
   },
 
   "MOUNT ANTHONY UHSD #14": {
-    "svgId":"Bpg0Wm2O3K",
+    "svgId":"G1jk4EUcxj",
     "districtName":"Southwest Vermont"
   },
 
   "BRATTLEBORO UHSD #6": {
-    "svgId":"Ee9eZgG2QR",
+    "svgId":"i2BU8sFwil",
     "districtName":"Windham Southeast"
   },
 
   "LELAND AND GRAY UHSD #34": {
-    "svgId":"BoWDU4791i",
+    "svgId":"XqfSLXAH7S",
     "districtName":"Windham Central"
   },
 
   "BELLOWS FALLS UHSD #27": {
-    "svgId":"sord7mjJmg",
+    "svgId":"mf0LqT8WDd",
     "districtName":"Windham Northeast"
   },
 
   "SPRINGFIELD SCHOOL DISTRICT": {
-    "svgId":"PkGWrZgr3U",
+    "svgId":"YvXLpIWxeD",
     "districtName":"Springfield"
   },
 
   "WINDSOR SCHOOL DISTRICT": {
-    "svgId":"SBIMPDsBOJ",
+    "svgId":"ibzzu3KajT",
     "districtName":"Windsor Southeast"
   },
 
   "WOODSTOCK UHSD #4": {
-    "svgId":"jEMT5iRGH7",
+    "svgId":"B1ciCcwmgl",
     "districtName":"Windsor Central"
   },
 
   "ROCHESTER SCHOOL DISTRICT": {
-    "svgId":"dcgGAAr0cp",
+    "svgId":"eEp9cEISq3",
     "districtName":"Windsor Northeast"
   },
 
   "HARTFORD SCHOOL DISTRICT": {
-    "svgId":"NDJ2YbnbHL",
+    "svgId":"BBuYKhiEC1",
     "districtName":"Hartford"
   },
 
   "OXBOW UHSD #30": {
-    "svgId":"Q4qlBomFXD",
+    "svgId":"Eo7UodiSBm",
     "districtName":"Orange East"
   },
 
   "ROYALTON SCHOOL DISTRICT": {
-    "svgId":"poOTEJltM8",
+    "svgId":"RxkhuB8UJ3",
     "districtName":"Orange - Windsor"
   },
 
   "RANDOLPH UHSD #2": {
-    "svgId":"ohyceedmVO",
+    "svgId":"d3pvq1J0Uf",
     "districtName":"Orange Southwest"
   },
 
   "NORTHFIELD SCHOOL DISTRICT": {
-    "svgId":"TlTpxDtyT4",
+    "svgId":"VlZylwReIU",
     "districtName":"Washington South"
   },
 
   "WILLIAMSTOWN SCHOOL DISTRICT": {
-    "svgId":"cgJT5JqEqu",
+    "svgId":"Axmg5ahJq1",
     "districtName":"Orange North"
   },
 
   "HARWOOD UHSD #19": {
-    "svgId":"btRAubOVfA",
+    "svgId":"eaqYns7S5T",
     "districtName":"Washington West"
   },
 
   "MONTPELIER SCHOOL DISTRICT": {
-    "svgId":"PaNIsK5ycT",
+    "svgId":"IzhSgHeGXV",
     "districtName":"Montpelier"
   },
 
   "SPAULDING UHSD #41": {
-    "svgId":"Rxzm9mNLvF",
+    "svgId":"lCPLXtrVg9",
     "districtName":"Barre"
   },
 
   "CABOT SCHOOL DISTRICT": {
-    "svgId":"LeOlqokI9r",
+    "svgId":"LxgfSKAP8J",
     "districtName":"Washington Northeast"
   },
 
   "BLUE MOUNTAIN USD #21": {
-    "svgId":"EyLsg3pF1J",
+    "svgId":"LhbIYtxcRQ",
     "districtName":"Blue Moutain"
   },
 
   "DANVILLE SCHOOL DISTRICT": {
-    "svgId":"CrLfQAR7vW",
+    "svgId":"qf7ZtY0MG9",
     "districtName":"Caledonia Central"
   },
 
   "LYNDON SCHOOL DISTRICT": {
-    "svgId":"dCj2OH0laB",
+    "svgId":"xsfClzoLTy",
     "districtName":"Caledonia North"
   },
 
   "SAINT JOHNSBURY SCHOOL DISTRICT": {
-    "svgId":"nffjkwBezN",
+    "svgId":"O7SjhIFi1Z",
     "districtName":"St. Johnsbury"
   },
 
   "CONCORD SCHOOL DISTRICT": {
-    "svgId":"sBHjOARZAb",
+    "svgId":"dfksdCbDQn",
     "districtName":"Essex Caledonia"
-  },
-
-  "NO DATA": [
-    {
-      "svgId":"Z5hLeUeaWb",
-      "districtName":"Washington Central"
-    },
-    {
-      "svgId":"p3FKZ6eQSd",
-      "districtName":"Franklin West"
-    },
-    {
-      "svgId":"nbVNnOmrt9",
-      "districtName":"Bennington-Rutland"
-    },
-    {
-      "svgId":"KAMVMiPHhN",
-      "districtName":"Windham Southwest"
-    },
-    {
-      "svgId":"G2lnvateNx",
-      "districtName":"Pittsfield"
-    },
-    {
-      "svgId":"X9i508gtkx",
-      "districtName":"Norwich"
-    },
-    {
-      "svgId":"Qq0U5Nelj0",
-      "districtName":"Rivendell"
-    },
-    {
-      "svgId":"ObcKAdvkCd",
-      "districtName":"Orange East"
-    },
-  ]
+  }
 }
