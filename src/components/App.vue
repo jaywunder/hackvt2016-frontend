@@ -26,7 +26,8 @@
                 </div>
               </div>
             </div>
-            <configuration/>
+            <div id="configuration">
+            </div>
           </div>
         </div>
         <div class="col-md-7">
@@ -64,7 +65,45 @@ export default {
   },
   data () {
     return {
+        hello:(function() {
+            $(function() {
+                let root = $("#configuration")
+                $.get("http://localhost:8123", function(data) {
+                    for (let districtName in data) {
+                        let district = data[districtName]
+                        var label = district.districtName
 
+                        var min = Math.round(district.minDollars)
+                        var max = 2 * district.currentDollars - district.minDollars
+
+                        var html = "<input type=\"range\" min=\"" + min + "\" max=\"" + max + "\" value=\"" + district.currentDollars + "\"></input>";
+
+
+                        var fundsPerStudent = $("<p></p>");
+
+                        html = $(html);
+
+                        html.on("change", function() {
+                            let newval = $(this).val();
+
+                            $.get("http://localhost:8123/calculate/" + newval, function(data) {
+                                state.districts.forEach(function(localStateDistrict) {
+                                    fundsPerStudent.html(newval);
+                                    if (localStateDistrict.uglyName == district.districtName) {
+                                        localStateDistrict.successIndex = data / 100
+                                        $(".invisible-button").click();
+                                    }
+                                });
+                            })
+                        })
+
+                        root.append($("<p>" + label + "</p>"));
+                        root.append(fundsPerStudent);
+                        root.append(html);
+                    }
+                })
+            })
+        })()
     }
   },
   methods: {

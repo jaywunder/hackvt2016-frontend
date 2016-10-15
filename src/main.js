@@ -35,6 +35,7 @@ fetch(DILLONS_IP)
       if (key === 'NO DATA') continue
       const district = districts[key]
       state.districts.push({
+          uglyName: key,
         svgId: district.svgId,
         districtName: district.districtName,
         successIndex: successIndices[key]
