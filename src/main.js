@@ -5,6 +5,3 @@ new Vue({
   el: '#app',
   render: h => h(App)
 })
-// Vue.component('Child', {
-//
-// })
