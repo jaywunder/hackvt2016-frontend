@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
 import Vermont from './Vermont.vue'
 
 export default {
