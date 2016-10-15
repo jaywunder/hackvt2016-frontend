@@ -10,8 +10,6 @@
 import { mapMutations } from 'vuex'
 import Vermont from './components/Vermont.vue'
 
-import * as mapData from './assets/map.json'
-
 export default {
   name: 'App',
   components: {
