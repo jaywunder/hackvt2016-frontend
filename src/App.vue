@@ -1,53 +1,44 @@
 <template>
-  <div id="app">
-<<<<<<< HEAD
+  <div id="app" class="container-fluid">
+        <div id="header">
+          <h1>Vermont School Districts Funding</h1>
+        </div>
 
-    <div id="header">
-      <h1>Vermont School Districts Funding</h1>
-    </div>
+        <div id="main">
+          <h1>{{ myMessage }}</h1>
+          <text-box/>
+          <button id="buttonSubmit" v-on:click="returnDistName()"> Button </button>
+          <p> {{currDistrict}} </p>
+          <div v-for="district in districts">
+            <slider v-bind:name="district" v-bind:value="someValue" min="0" max="1000"/>
+          </div>
+        </div>
 
-    <div id="main">
-      <h1>{{ myMessage }}</h1>
-      <text-box/>
-      <div v-for="district in districts">
-        <slider v-bind:name="district" v-bind:value="someValue" min="0" max="1000"/>
+      <div id="vt">
+        <vermont></vermont>
       </div>
-    </div>
-
-    <div id="map">
-      <p> This is the map div </p>
-    </div>
-=======
-    <img src="./assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <vermont/>
->>>>>>> refs/remotes/origin/master
   </div>
 </template>
 
 <script>
-<<<<<<< HEAD
 import Slider from './components/Slider.vue'
-import Text from './components/Text.vue'
-
-export default {
-  data() {
-=======
-import { mapMutations } from 'vuex'
+import TextBox from './components/TextBox.vue'
 import Vermont from './components/Vermont.vue'
-
+import { mapMutations } from 'vuex'
 import * as mapData from './assets/map.json'
 
 export default {
   name: 'App',
   components: {
-    Vermont
+    Vermont,
+    Slider,
+    TextBox
   },
   data () {
->>>>>>> refs/remotes/origin/master
     return {
       myMessage: 'Bootstrap to sort by: Financial Help',
       someValue: 500,
+      currDistrict: "Alpha",
       districts: ['Addison School District',
                      'Albany School District',
                      'Alburg School District',
@@ -137,21 +128,21 @@ export default {
                      'Hardwick School District']
     }
   },
-<<<<<<< HEAD
-  components: {
-    'slider': Slider,
-    'text-box': Text,
-=======
   methods: {
     printMapData() {
       console.log(state.districts);
     },
+    returnDistName(){
+      let g = document.getElementById('Dist').innerHTML;
+      this.currDistrict = g;
+      districts.splice(districts.indexOf(), 1);
+    },
+    //"I said biiiiiiiiiiiiiiiiiiiiiiznitch"
     /* jshint ignore:start */
     ...mapMutations([
       'addDistrict'
     ])
     /* jshint ignore:end */
->>>>>>> refs/remotes/origin/master
   }
 }
 </script>
@@ -159,33 +150,32 @@ export default {
 <style>
 body {
   font-family: Helvetica, sans-serif;
+  /*background-color: Maroon;*/
 }
-  body {
-    font-family: Helvetica, sans-serif;
-  }
-  #header{
-    background-color: #559955;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60%;
-    height: 10%;
-  }
-  #main{
-    background-color: #808099;
-    position: fixed;
-    top: 10%;
-    left: 0;
-    height: 90%;
-    width: 60%;
-    overflow: scroll;
-  }
-  #map {
-    position: absolute;
-    background-color: #995555;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 40%;
-  }
+#header{
+  position: fixed;
+  background-color: #559955;
+  width: 60%;
+  height: 10%;
+  top:0;
+  left:0;
+}
+#main{
+  position: fixed;;;
+  background-color: #808099;
+  height: 90%;
+  width: 60%;
+  overflow: scroll;
+  overflow-x: hidden;
+  top:10%;
+  left:0;
+}
+#vt {
+  position: fixed;
+  background-color: #995555;
+  height: 100%;
+  width: 40%;
+  top:0;
+  right:0;
+}
 </style>
