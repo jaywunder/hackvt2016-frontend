@@ -6,14 +6,15 @@
 </template>
 
 <script>
-// import store from '../store'
-import { mapMutations } from 'vuex'
+import { mapGetters } from 'vuex'
+
+// console.log(mapGetters(['districts']));
 
 export default {
   name: 'Vermont',
-  props: {
-    name: String
-  },
+  // props: {
+  //   name: String
+  // },
   data () {
     return {
       msg: 'SOME COOL MESSAGE'
@@ -22,7 +23,7 @@ export default {
   methods: {
     log: function() {
       console.log(this.msg);
-    }
+    },
   }
 }
 </script>
