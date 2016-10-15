@@ -1,0 +1,512 @@
+[
+  {
+    "name": "BELLOWS FALLS UHSD #27",
+    "satMean": 0,
+    "leaid": 5008246,
+    "pop": 347,
+    "collegeEnrollRate": 0.5439,
+    "localRev": 343000,
+    "federalRev": 0,
+    "stateRev": 7341000
+  },
+  {
+    "name": "BURLINGTON SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5002820,
+    "pop": 3349,
+    "collegeEnrollRate": 0.6577,
+    "localRev": 8234000,
+    "federalRev": 7139000,
+    "stateRev": 62821000
+  },
+  {
+    "name": "CHAMPLAIN VALLEY UHSD #15",
+    "satMean": 0,
+    "leaid": 5003030,
+    "pop": 1284,
+    "collegeEnrollRate": 0.7593,
+    "localRev": 2242000,
+    "federalRev": 155000,
+    "stateRev": 20471000
+  },
+  {
+    "name": "COLCHESTER SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5003240,
+    "pop": 2185,
+    "collegeEnrollRate": 0.6563,
+    "localRev": 2406000,
+    "federalRev": 1436000,
+    "stateRev": 30731000
+  },
+  {
+    "name": "ENOSBURGH TOWN SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5003780,
+    "pop": 669,
+    "collegeEnrollRate": 0.4353,
+    "localRev": 3197000,
+    "federalRev": 180000,
+    "stateRev": 7679000
+  },
+  {
+    "name": "MIDDLEBURY UHSD #3",
+    "satMean": 0,
+    "leaid": 5005520,
+    "pop": 912,
+    "collegeEnrollRate": 0.5954,
+    "localRev": 434000,
+    "federalRev": 0,
+    "stateRev": 17230000
+  },
+  {
+    "name": "POULTNEY SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5006600,
+    "pop": 473,
+    "collegeEnrollRate": 0.4333,
+    "localRev": 739000,
+    "federalRev": 1000,
+    "stateRev": 6278000
+  },
+  {
+    "name": "VERGENNES UHSD #5",
+    "satMean": 0,
+    "leaid": 5008280,
+    "pop": 547,
+    "collegeEnrollRate": 0.5269,
+    "localRev": 338000,
+    "federalRev": 69000,
+    "stateRev": 9352000
+  },
+  {
+    "name": "WINDSOR SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5009300,
+    "pop": 523,
+    "collegeEnrollRate": 0.5,
+    "localRev": 1484000,
+    "federalRev": 267000,
+    "stateRev": 8125000
+  },
+  {
+    "name": "WOODSTOCK UHSD #4",
+    "satMean": 0,
+    "leaid": 5009510,
+    "pop": 524,
+    "collegeEnrollRate": 0.6237,
+    "localRev": 2245000,
+    "federalRev": 42000,
+    "stateRev": 9618000
+  },
+  {
+    "name": "DANVILLE SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5003450,
+    "pop": 373,
+    "collegeEnrollRate": 0.4839,
+    "localRev": 491000,
+    "federalRev": 38000,
+    "stateRev": 5440000
+  },
+  {
+    "name": "FAIR HAVEN UHSD #16",
+    "satMean": 0,
+    "leaid": 5003900,
+    "pop": 431,
+    "collegeEnrollRate": 0.4717,
+    "localRev": 622000,
+    "federalRev": 0,
+    "stateRev": 7010000
+  },
+  {
+    "name": "OTTER VALLEY UHSD #8",
+    "satMean": 0,
+    "leaid": 5006300,
+    "pop": 572,
+    "collegeEnrollRate": 0.4894,
+    "localRev": 324000,
+    "federalRev": 104000,
+    "stateRev": 9960000
+  },
+  {
+    "name": "OXBOW UHSD #30",
+    "satMean": 0,
+    "leaid": 5008247,
+    "pop": 417,
+    "collegeEnrollRate": 0.5588,
+    "localRev": 2202000,
+    "federalRev": 220000,
+    "stateRev": 7223000
+  },
+  {
+    "name": "ROCHESTER SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5006900,
+    "pop": 151,
+    "collegeEnrollRate": 0,
+    "localRev": 635000,
+    "federalRev": 54000,
+    "stateRev": 2370000
+  },
+  {
+    "name": "RUTLAND CITY SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5007050,
+    "pop": 2325,
+    "collegeEnrollRate": 0.6079,
+    "localRev": 5631000,
+    "federalRev": 4325000,
+    "stateRev": 38028000
+  },
+  {
+    "name": "SOUTH BURLINGTON SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5007470,
+    "pop": 2108,
+    "collegeEnrollRate": 0.7343,
+    "localRev": 3940000,
+    "federalRev": 1532000,
+    "stateRev": 39281000
+  },
+  {
+    "name": "SPAULDING UHSD #41",
+    "satMean": 0,
+    "leaid": 5000002,
+    "pop": 733,
+    "collegeEnrollRate": 0.5337,
+    "localRev": 1455000,
+    "federalRev": 315000,
+    "stateRev": 13939000
+  },
+  {
+    "name": "BELLOWS FREE ACADEMY UHSD #48",
+    "satMean": 0,
+    "leaid": 5000025,
+    "pop": 1047,
+    "collegeEnrollRate": 0.5896,
+    "localRev": 5626000,
+    "federalRev": 0,
+    "stateRev": 12246000
+  },
+  {
+    "name": "BLUE MOUNTAIN USD #21",
+    "satMean": 0,
+    "leaid": 5008224,
+    "pop": 447,
+    "collegeEnrollRate": 0.5238,
+    "localRev": 437000,
+    "federalRev": 517000,
+    "stateRev": 6887000
+  },
+  {
+    "name": "BRATTLEBORO UHSD #6",
+    "satMean": 0,
+    "leaid": 5002520,
+    "pop": 1091,
+    "collegeEnrollRate": 0.5775,
+    "localRev": 2394000,
+    "federalRev": 305000,
+    "stateRev": 23326000
+  },
+  {
+    "name": "ESSEX TOWN SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5003840,
+    "pop": 1293,
+    "collegeEnrollRate": 0.7211,
+    "localRev": 629000,
+    "federalRev": 864000,
+    "stateRev": 19130000
+  },
+  {
+    "name": "GREEN MOUNTAIN UHSD #35",
+    "satMean": 0,
+    "leaid": 5008248,
+    "pop": 326,
+    "collegeEnrollRate": 0.6667,
+    "localRev": 607000,
+    "federalRev": 0,
+    "stateRev": 5336000
+  },
+  {
+    "name": "HARWOOD UHSD #19",
+    "satMean": 0,
+    "leaid": 5004580,
+    "pop": 720,
+    "collegeEnrollRate": 0.6058,
+    "localRev": 782000,
+    "federalRev": 198000,
+    "stateRev": 12801000
+  },
+  {
+    "name": "LAKE REGION UHSD #24",
+    "satMean": 0,
+    "leaid": 5005050,
+    "pop": 360,
+    "collegeEnrollRate": 0.5,
+    "localRev": 374000,
+    "federalRev": 12000,
+    "stateRev": 5463000
+  },
+  {
+    "name": "LELAND AND GRAY UHSD #34",
+    "satMean": 0,
+    "leaid": 5005120,
+    "pop": 348,
+    "collegeEnrollRate": 0.5085,
+    "localRev": 946000,
+    "federalRev": 76000,
+    "stateRev": 5661000
+  },
+  {
+    "name": "LYNDON SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5005310,
+    "pop": 487,
+    "collegeEnrollRate": 0.5772,
+    "localRev": 336000,
+    "federalRev": 153000,
+    "stateRev": 11249000
+  },
+  {
+    "name": "NORTHFIELD SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5006120,
+    "pop": 635,
+    "collegeEnrollRate": 0.617,
+    "localRev": 728000,
+    "federalRev": 110000,
+    "stateRev": 9641000
+  },
+  {
+    "name": "SAINT JOHNSBURY SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5007650,
+    "pop": 658,
+    "collegeEnrollRate": 0.6143,
+    "localRev": 390000,
+    "federalRev": 1585000,
+    "stateRev": 14553000
+  },
+  {
+    "name": "WINOOSKI SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5009360,
+    "pop": 820,
+    "collegeEnrollRate": 0.4318,
+    "localRev": 425000,
+    "federalRev": 1757000,
+    "stateRev": 12962000
+  },
+  {
+    "name": "CONCORD SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5003270,
+    "pop": 208,
+    "collegeEnrollRate": 0,
+    "localRev": 293000,
+    "federalRev": 2000,
+    "stateRev": 3313000
+  },
+  {
+    "name": "HARTFORD SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5004590,
+    "pop": 1627,
+    "collegeEnrollRate": 0.6463,
+    "localRev": 5483000,
+    "federalRev": 1240000,
+    "stateRev": 24072000
+  },
+  {
+    "name": "MILL RIVER USD #40",
+    "satMean": 0,
+    "leaid": 5008244,
+    "pop": 535,
+    "collegeEnrollRate": 0.5464,
+    "localRev": 2505000,
+    "federalRev": 107000,
+    "stateRev": 7215000
+  },
+  {
+    "name": "MILTON INCORPORATED SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5005610,
+    "pop": 1677,
+    "collegeEnrollRate": 0.5957,
+    "localRev": 1007000,
+    "federalRev": 1534000,
+    "stateRev": 24615000
+  },
+  {
+    "name": "MISSISQUOI VALLEY UHSD #7",
+    "satMean": 0,
+    "leaid": 5005620,
+    "pop": 902,
+    "collegeEnrollRate": 0.438,
+    "localRev": 801000,
+    "federalRev": 208000,
+    "stateRev": 13693000
+  },
+  {
+    "name": "MONTPELIER SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5005700,
+    "pop": 1012,
+    "collegeEnrollRate": 0.7262,
+    "localRev": 637000,
+    "federalRev": 863000,
+    "stateRev": 15856000
+  },
+  {
+    "name": "MOUNT ANTHONY UHSD #14",
+    "satMean": 0,
+    "leaid": 5005810,
+    "pop": 1574,
+    "collegeEnrollRate": 0.5429,
+    "localRev": 422000,
+    "federalRev": 1000,
+    "stateRev": 25001000
+  },
+  {
+    "name": "NORTH COUNTRY SENIOR UHSD #22",
+    "satMean": 0,
+    "leaid": 5009600,
+    "pop": 850,
+    "collegeEnrollRate": 0.4426,
+    "localRev": 1872000,
+    "federalRev": 170000,
+    "stateRev": 17624000
+  },
+  {
+    "name": "RANDOLPH UHSD #2",
+    "satMean": 0,
+    "leaid": 5002400,
+    "pop": 431,
+    "collegeEnrollRate": 0.5469,
+    "localRev": 1363000,
+    "federalRev": 73000,
+    "stateRev": 9189000
+  },
+  {
+    "name": "SPRINGFIELD SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5007530,
+    "pop": 1457,
+    "collegeEnrollRate": 0.5981,
+    "localRev": 3840000,
+    "federalRev": 1666000,
+    "stateRev": 26327000
+  },
+  {
+    "name": "WEST RUTLAND SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5008850,
+    "pop": 346,
+    "collegeEnrollRate": 0.6207,
+    "localRev": 441000,
+    "federalRev": 81000,
+    "stateRev": 4993000
+  },
+  {
+    "name": "WILLIAMSTOWN SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5009180,
+    "pop": 554,
+    "collegeEnrollRate": 0.3611,
+    "localRev": 164000,
+    "federalRev": 20000,
+    "stateRev": 8478000
+  },
+  {
+    "name": "ARLINGTON SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5001830,
+    "pop": 395,
+    "collegeEnrollRate": 0.6111,
+    "localRev": 853000,
+    "federalRev": 236000,
+    "stateRev": 4983000
+  },
+  {
+    "name": "CANAAN SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5002940,
+    "pop": 202,
+    "collegeEnrollRate": 0.7,
+    "localRev": 694000,
+    "federalRev": 96000,
+    "stateRev": 2570000
+  },
+  {
+    "name": "HAZEN UHSD #26",
+    "satMean": 0,
+    "leaid": 5008243,
+    "pop": 371,
+    "collegeEnrollRate": 0.4746,
+    "localRev": 727000,
+    "federalRev": 10000,
+    "stateRev": 5893000
+  },
+  {
+    "name": "LAMOILLE UHSD #18",
+    "satMean": 0,
+    "leaid": 5005060,
+    "pop": 833,
+    "collegeEnrollRate": 0.4173,
+    "localRev": 2455000,
+    "federalRev": 152000,
+    "stateRev": 17028000
+  },
+  {
+    "name": "MOUNT ABRAHAM UHSD #28",
+    "satMean": 0,
+    "leaid": 5008235,
+    "pop": 757,
+    "collegeEnrollRate": 0.561,
+    "localRev": 270000,
+    "federalRev": 0,
+    "stateRev": 13199000
+  },
+  {
+    "name": "MOUNT MANSFIELD USD #17",
+    "satMean": 0,
+    "leaid": 5005840,
+    "pop": 1676,
+    "collegeEnrollRate": 0.636,
+    "localRev": 1303000,
+    "federalRev": 130000,
+    "stateRev": 24865000
+  },
+  {
+    "name": "ROYALTON SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5006990,
+    "pop": 355,
+    "collegeEnrollRate": 0.6176,
+    "localRev": 859000,
+    "federalRev": 94000,
+    "stateRev": 5364000
+  },
+  {
+    "name": "STOWE SCHOOL DISTRICT",
+    "satMean": 0,
+    "leaid": 5007800,
+    "pop": 705,
+    "collegeEnrollRate": 0.8103,
+    "localRev": 682000,
+    "federalRev": 117000,
+    "stateRev": 10353000
+  },
+  {
+    "name": "TWINFIELD USD #33",
+    "satMean": 0,
+    "leaid": 5008225,
+    "pop": 420,
+    "collegeEnrollRate": 0.5185,
+    "localRev": 140000,
+    "federalRev": 186000,
+    "stateRev": 6451000
+  }
+]

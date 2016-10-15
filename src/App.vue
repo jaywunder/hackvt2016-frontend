@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
 
     <div id="header">
       <h1>Vermont School Districts Funding</h1>
@@ -16,15 +17,34 @@
     <div id="map">
       <p> This is the map div </p>
     </div>
+=======
+    <img src="./assets/logo.png">
+    <h1>{{ msg }}</h1>
+    <vermont/>
+>>>>>>> refs/remotes/origin/master
   </div>
 </template>
 
 <script>
+<<<<<<< HEAD
 import Slider from './components/Slider.vue'
 import Text from './components/Text.vue'
 
 export default {
   data() {
+=======
+import { mapMutations } from 'vuex'
+import Vermont from './components/Vermont.vue'
+
+import * as mapData from './assets/map.json'
+
+export default {
+  name: 'App',
+  components: {
+    Vermont
+  },
+  data () {
+>>>>>>> refs/remotes/origin/master
     return {
       myMessage: 'Bootstrap to sort by: Financial Help',
       someValue: 500,
@@ -117,9 +137,21 @@ export default {
                      'Hardwick School District']
     }
   },
+<<<<<<< HEAD
   components: {
     'slider': Slider,
     'text-box': Text,
+=======
+  methods: {
+    printMapData() {
+      console.log(state.districts);
+    },
+    /* jshint ignore:start */
+    ...mapMutations([
+      'addDistrict'
+    ])
+    /* jshint ignore:end */
+>>>>>>> refs/remotes/origin/master
   }
 }
 </script>
