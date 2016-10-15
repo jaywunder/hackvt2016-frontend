@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="../assets/logo.png">
     <h1>{{ msg }}</h1>
     <vermont/>
   </div>
@@ -8,9 +8,7 @@
 
 <script>
 import { mapMutations } from 'vuex'
-import Vermont from './components/Vermont.vue'
-
-import * as mapData from './assets/map.json'
+import Vermont from './Vermont.vue'
 
 export default {
   name: 'App',
@@ -25,12 +23,7 @@ export default {
   methods: {
     printMapData() {
       console.log(state.districts);
-    },
-    /* jshint ignore:start */
-    ...mapMutations([
-      'addDistrict'
-    ])
-    /* jshint ignore:end */
+    }
   }
 }
 </script>

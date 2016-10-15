@@ -43,8 +43,7 @@
     "districtName":"Franklin Central"
   },
 
-  "MILTON INCORPORATED SCHOOL DISTRICT
-  ": {
+  "MILTON INCORPORATED SCHOOL DISTRICT": {
     "svgId":"X9gHFoZTLx",
     "districtName":"Milton"
   },
@@ -286,6 +285,6 @@
     {
       "svgId":"ObcKAdvkCd",
       "districtName":"Orange East"
-    },
+    }
   ]
 }
