@@ -15,34 +15,12 @@
       <div class="row">
         <div class="col-md-5">
           <div class="panel panel-primary">
-            <div class="panel-heading">
-              <div class="row">
-                <div class="col-xs-3">
-                  <i class="fa fa-comments fa-5x"></i>
-                </div>
-                <div class="col-xs-9 text-right">
-                  <div class="huge">EDIT</div>
-                  <div>Your shit!</div>
-                </div>
-              </div>
-            </div>
             <div id="configuration">
             </div>
           </div>
         </div>
         <div class="col-md-7">
           <div class="panel panel-primary">
-            <div class="panel-heading">
-              <div class="row">
-                <div class="col-xs-3">
-                  <i class="fa fa-comments fa-5x"></i>
-                </div>
-                <div class="col-xs-9 text-right">
-                  <div class="huge">METRICS</div>
-                  <div>Go here!</div>
-                </div>
-              </div>
-            </div>
             <vermont/>
           </div>
         </div>
