@@ -190,16 +190,6 @@
     "stateRev": 12246000
   },
   {
-    "name": "BLACK RIVER USD #39",
-    "satMean": 0,
-    "leaid": 5008241,
-    "pop": 176,
-    "collegeEnrollRate": 0.5862,
-    "localRev": 205000,
-    "federalRev": 0,
-    "stateRev": 3843000
-  },
-  {
     "name": "BLUE MOUNTAIN USD #21",
     "satMean": 0,
     "leaid": 5008224,
@@ -218,16 +208,6 @@
     "localRev": 2394000,
     "federalRev": 305000,
     "stateRev": 23326000
-  },
-  {
-    "name": "CRAFTSBURY SCHOOL DISTRICT",
-    "satMean": 0,
-    "leaid": 5003390,
-    "pop": 160,
-    "collegeEnrollRate": 0,
-    "localRev": 451000,
-    "federalRev": 4000,
-    "stateRev": 3108000
   },
   {
     "name": "ESSEX TOWN SCHOOL DISTRICT",
@@ -318,16 +298,6 @@
     "localRev": 425000,
     "federalRev": 1757000,
     "stateRev": 12962000
-  },
-  {
-    "name": "CHELSEA SCHOOL DISTRICT",
-    "satMean": 0,
-    "leaid": 5003120,
-    "pop": 185,
-    "collegeEnrollRate": 0.9286,
-    "localRev": 493000,
-    "federalRev": 61000,
-    "stateRev": 2664000
   },
   {
     "name": "CONCORD SCHOOL DISTRICT",
@@ -460,16 +430,6 @@
     "stateRev": 4983000
   },
   {
-    "name": "CABOT SCHOOL DISTRICT",
-    "satMean": 0,
-    "leaid": 5002850,
-    "pop": 185,
-    "collegeEnrollRate": 0,
-    "localRev": 243000,
-    "federalRev": 125000,
-    "stateRev": 3498000
-  },
-  {
     "name": "CANAAN SCHOOL DISTRICT",
     "satMean": 0,
     "leaid": 5002940,
@@ -520,26 +480,6 @@
     "stateRev": 24865000
   },
   {
-    "name": "PROCTOR SCHOOL DISTRICT",
-    "satMean": 0,
-    "leaid": 5006660,
-    "pop": 322,
-    "collegeEnrollRate": 0.68,
-    "localRev": 314000,
-    "federalRev": 85000,
-    "stateRev": 4861000
-  },
-  {
-    "name": "RICHFORD SCHOOL DISTRICT",
-    "satMean": 0,
-    "leaid": 5006810,
-    "pop": 479,
-    "collegeEnrollRate": 0.4889,
-    "localRev": 619000,
-    "federalRev": 37000,
-    "stateRev": 5587000
-  },
-  {
     "name": "ROYALTON SCHOOL DISTRICT",
     "satMean": 0,
     "leaid": 5006990,
@@ -558,16 +498,6 @@
     "localRev": 682000,
     "federalRev": 117000,
     "stateRev": 10353000
-  },
-  {
-    "name": "THETFORD SCHOOL DISTRICT",
-    "satMean": 0,
-    "leaid": 5008010,
-    "pop": 210,
-    "collegeEnrollRate": 0.6613,
-    "localRev": 54000,
-    "federalRev": 120000,
-    "stateRev": 7390000
   },
   {
     "name": "TWINFIELD USD #33",
