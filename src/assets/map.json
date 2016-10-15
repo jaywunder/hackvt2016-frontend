@@ -3,31 +3,37 @@
     "svgId": "WjHn5HTqsO",
     "districtName": "North Country"
   },
+
   "WINOOSKI SCHOOL DISTRICT": {
-      "svgId": "",
-      "districtName": ""
-    },
+    "svgId": "fny2skbMQ6",
+    "districtName": "Winooski"
+  },
+
   "BURLINGTON SCHOOL DISTRICT": {
-    "svgId": "",
-    "districtName": ""
+    "svgId": "OzJB13X2ch",
+    "districtName": "Burlington"
   },
   "SOUTH BURLINGTON SCHOOL DISTRICT": {
-    "svgId": "",
-    "districtName": ""
+    "svgId": "xmQSUTZ2tE",
+    "districtName": "South Burlington"
   },
+
   "ENOSBURGH TOWN SCHOOL DISTRICT": {
     "svgId": "OlSW9OZd74",
     "districtName": "Franklin Northeast"
   },
+
   "LAKE REGION UHSD #24": {
     "svgId": "Cn37fa7t8O",
     "districtName": "Orleans Central"
   },
+
   "CANAAN SCHOOL DISTRICT": {
     "svgId": "zyJSLFgjLp",
     "districtName": "Essex North"
   },
-    "MISSISQUOI VALLEY UHSD #7": {
+
+  "MISSISQUOI VALLEY UHSD #7": {
     "svgId":"i9sWLrxp3b",
     "districtName":"Franklin Northwest"
   },
@@ -35,11 +41,6 @@
   "BELLOWS FREE ACADEMY UHSD #48": {
     "svgId":"focx5hockO",
     "districtName":"Franklin Central"
-  },
-
-  "NO DATA": {
-    "svgId":"p3FKZ6eQSd",
-    "districtName":"Franklin West"
   },
 
   "MILTON INCORPORATED SCHOOL DISTRICT
@@ -133,11 +134,6 @@
     "districtName":"Two Rivers"
   },
 
-  "NO DATA": {
-    "svgId":"nbVNnOmrt9",
-    "districtName":"Bennington-Rutland"
-  },
-
   "ARLINGTON SCHOOL DISTRICT": {
     "svgId":"IwoX594MRp",
     "districtName":"Battenkill Valley"
@@ -146,11 +142,6 @@
   "MOUNT ANTHONY UHSD #14": {
     "svgId":"Bpg0Wm2O3K",
     "districtName":"Southwest Vermont"
-  },
-
-  "NO DATA": {
-    "svgId":"KAMVMiPHhN",
-    "districtName":"Windham Southwest"
   },
 
   "BRATTLEBORO UHSD #6": {
@@ -183,11 +174,6 @@
     "districtName":"Windsor Central"
   },
 
-  "NO DATA": {
-    "svgId":"G2lnvateNx",
-    "districtName":"Pittsfield"
-  },
-
   "ROCHESTER SCHOOL DISTRICT": {
     "svgId":"dcgGAAr0cp",
     "districtName":"Windsor Northeast"
@@ -196,11 +182,6 @@
   "HARTFORD SCHOOL DISTRICT": {
     "svgId":"NDJ2YbnbHL",
     "districtName":"Hartford"
-  },
-
-  "NO DATA": {
-    "svgId":"X9i508gtkx",
-    "districtName":"Norwich"
   },
 
   "OXBOW UHSD #30": {
@@ -223,16 +204,6 @@
     "districtName":"Washington South"
   },
 
-  "NO DATA": {
-    "svgId":"Qq0U5Nelj0",
-    "districtName":"Rivendell"
-  },
-
-  "NO DATA": {
-    "svgId":"ObcKAdvkCd",
-    "districtName":"Orange East"
-  },
-
   "WILLIAMSTOWN SCHOOL DISTRICT": {
     "svgId":"cgJT5JqEqu",
     "districtName":"Orange North"
@@ -241,11 +212,6 @@
   "HARWOOD UHSD #19": {
     "svgId":"btRAubOVfA",
     "districtName":"Washington West"
-  },
-
-  "NO DATA": {
-    "svgId":"Z5hLeUeaWb",
-    "districtName":"Washington Central"
   },
 
   "MONTPELIER SCHOOL DISTRICT": {
@@ -286,5 +252,40 @@
   "CONCORD SCHOOL DISTRICT": {
     "svgId":"sBHjOARZAb",
     "districtName":"Essex Caledonia"
-  }
+  },
+
+  "NO DATA": [
+    {
+      "svgId":"Z5hLeUeaWb",
+      "districtName":"Washington Central"
+    },
+    {
+      "svgId":"p3FKZ6eQSd",
+      "districtName":"Franklin West"
+    },
+    {
+      "svgId":"nbVNnOmrt9",
+      "districtName":"Bennington-Rutland"
+    },
+    {
+      "svgId":"KAMVMiPHhN",
+      "districtName":"Windham Southwest"
+    },
+    {
+      "svgId":"G2lnvateNx",
+      "districtName":"Pittsfield"
+    },
+    {
+      "svgId":"X9i508gtkx",
+      "districtName":"Norwich"
+    },
+    {
+      "svgId":"Qq0U5Nelj0",
+      "districtName":"Rivendell"
+    },
+    {
+      "svgId":"ObcKAdvkCd",
+      "districtName":"Orange East"
+    },
+  ]
 }
